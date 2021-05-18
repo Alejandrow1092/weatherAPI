@@ -1,0 +1,22 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": "> 0.2%",
+  "scripts": {
+    "build": "parcel build ./src/views/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+  "targets": {
+    "app": {
+      "distDir": "./averts"
+    }
+  }
+  
+}
